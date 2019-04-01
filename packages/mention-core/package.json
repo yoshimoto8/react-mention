@@ -5,7 +5,7 @@
   "author": "yoshimoto8 <yoyoyo427435@gmail.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "src/index.ts",
+  "main": "dest/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -19,10 +19,16 @@
     "lint:format": "prettier --write './src/**/*.{js,ts,tsx,scss,json}'"
   },
   "dependencies": {
-    "mention-example": "^0.0.0",
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
+    "emotion": "^10.0.9",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "typescript": "^3.4.1"
   },
   "devDependencies": {
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
     "prettier": "^1.16.4"
   }
 }
