@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "lerna": "^3.13.1"
+  },
+  "name": "react-mention"
+}
